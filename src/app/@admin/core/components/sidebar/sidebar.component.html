@@ -1,0 +1,12 @@
+     <!-- Sidebar-->
+
+ <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">
+         <a [routerLink]="['/home']" routerLinkActive="router-link-active" >Joyería Chávez</a>
+        </div>
+        <div class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action bg-sidebar-menu-item"[routerLink]="['/admin']" routerLinkActive="router-link-active" ><i class="fas fa-solar-panel"></i> Dashboard</a>
+            <a class="list-group-item list-group-item-action bg-sidebar-menu-item" [routerLink]="['/admin/users']" routerLinkActive="router-link-active" ><i class="fas fa-users"></i> Usuarios</a>
+            
+        </div>
+    </div>

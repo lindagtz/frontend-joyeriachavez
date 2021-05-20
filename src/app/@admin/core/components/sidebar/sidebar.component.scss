@@ -1,0 +1,17 @@
+@import "./../../../pages/admin.component.scss";
+
+#sidebar-wrapper{
+    background-color: $admin-primary-color;
+}
+
+.sidebar-heading a{
+    color: black;
+}
+.bg-sidebar-menu-item {
+    background-color: rgb(225, 231, 143);
+}
+#menu-toggle {
+    background-color: transparent;
+    color: black;
+    border-color: transparent;
+}
